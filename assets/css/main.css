@@ -3136,3 +3136,8 @@ input, select, textarea {
 					}
 
 	}
+
+logoTwo{
+	max-width: 200px;
+	max-height: 150px;
+}
