@@ -61,6 +61,7 @@ mark {
 }
 
 input::-moz-focus-inner {
+	
 	border: 0;
 	padding: 0;
 }
@@ -278,6 +279,7 @@ input, select, textarea {
 
 	.row {
 		display: flex;
+		flex-flow: column;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -2446,6 +2448,9 @@ input, select, textarea {
 
 /* Main */
 
+	#main{
+		font-weight: bolder;
+	}
 	#main {
 		margin-bottom: 0;
 	}
